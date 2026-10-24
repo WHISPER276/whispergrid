@@ -13,7 +13,7 @@
     { "name": "agentWallet", "endpoint": "eip155:97:0xda92728653bC20936473e402F4a8b2045039B3B7" }
   ],
   "registrations": [
-    { "agentId": 0, "agentRegistry": "eip155:97:0x8004A818BFB912233c491871b3d84c89A494BD9e" }
+    { "agentId": 2669, "agentRegistry": "eip155:97:0x8004A818BFB912233c491871b3d84c89A494BD9e" }
   ],
   "x402support": false,
   "supportedTrust": ["reputation"]
