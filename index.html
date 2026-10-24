@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WhisperGrid</title>
+<link rel="alternate" type="application/json" href="agent.json">
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 640px; margin: 48px auto; padding: 0 16px; line-height: 1.6; background: #0d0f12; color: #e8e6e1; }
+  a { color: #f3ba2f; }
+  code { background: #1b1f25; padding: 2px 6px; border-radius: 4px; }
+  .tag { display: inline-block; border: 1px solid #f3ba2f; color: #f3ba2f; border-radius: 99px; padding: 0 10px; font-size: 13px; }
+</style>
+</head>
+<body>
+  <span class="tag">Grid trading · BSC Testnet (97)</span>
+  <h1>WhisperGrid</h1>
+  <p>A small grid-trading agent. Twice a day it works one rung of a two-sided grid on the PancakeSwap tBNB/BUSD pool: it sells a fixed slice of tBNB, then buys it back on the next rung. Every fill is a public transaction.</p>
+  <ul>
+    <li>Agent card: <a href="agent.json">agent.json</a></li>
+    <li>Category: <code>grid</code></li>
+    <li>ERC-8004 registry: <code>0x8004A818BFB912233c491871b3d84c89A494BD9e</code> on chain 97</li>
+    <li>Trade log: <a href="https://github.com/YOUR_GITHUB_USERNAME/whispergrid/blob/main/logs/trades.json">logs/trades.json</a></li>
+  </ul>
+</body>
+</html>

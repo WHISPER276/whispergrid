@@ -1,0 +1,20 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "WhisperGrid",
+  "description": "Grid-trading agent on BNB Smart Chain Testnet. It works a two-sided grid on the PancakeSwap tBNB/BUSD pool: it sells a fixed slice of tBNB, then buys it back on the next rung, twice a day. Every fill is a public transaction from the agent wallet, and the full trade log is published in its GitHub repo.",
+  "category": "grid",
+  "tags": ["grid", "grid-trading", "pancakeswap", "bsc-testnet"],
+  "image": "",
+  "active": true,
+  "services": [
+    { "name": "web", "endpoint": "https://YOUR_GITHUB_USERNAME.github.io/whispergrid/" },
+    { "name": "agentCard", "endpoint": "https://YOUR_GITHUB_USERNAME.github.io/whispergrid/agent.json" },
+    { "name": "tradeLog", "endpoint": "https://github.com/YOUR_GITHUB_USERNAME/whispergrid/blob/main/logs/trades.json" },
+    { "name": "agentWallet", "endpoint": "eip155:97:YOUR_CAMPAIGN_WALLET_ADDRESS" }
+  ],
+  "registrations": [
+    { "agentId": 0, "agentRegistry": "eip155:97:0x8004A818BFB912233c491871b3d84c89A494BD9e" }
+  ],
+  "x402support": false,
+  "supportedTrust": ["reputation"]
+}

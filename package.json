@@ -1,0 +1,13 @@
+{
+  "name": "whispergrid",
+  "version": "1.0.0",
+  "description": "Grid-trading agent on BNB Smart Chain Testnet (ERC-8004)",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "trade": "node agent/grid.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}
