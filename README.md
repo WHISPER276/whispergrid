@@ -4,12 +4,12 @@ A grid-trading agent on **BNB Smart Chain Testnet**, built for BNB Chain's *Set 
 
 | | |
 |---|---|
-| **ERC-8004 agent ID** | `AGENT_ID_HERE` |
+| **ERC-8004 agent ID** | `2669` |
 | **Chain** | BNB Smart Chain Testnet (chain ID **97**) |
 | **Identity registry** | `0x8004A818BFB912233c491871b3d84c89A494BD9e` |
 | **Owner / agent wallet** | `0xda92728653bC20936473e402F4a8b2045039B3B7` |
 | **Category** | Grid trading |
-| **Marketplace** | [HelloFugu](https://app.hellofugu.xyz/) |
+| **Marketplace** | [HelloFugu — agent 97:2669](https://app.hellofugu.xyz/agent/97:2669) |
 | **Agent card** | https://whisper276.github.io/whispergrid/agent.json |
 
 ## What it does
