@@ -565,5 +565,14 @@
     "amountIn": "0.002 tBNB",
     "tx": "0xda3418e550d9238ce1533bdf3418c012708b4bdcc2f5aeb2c71d19fee42890b9",
     "explorer": "https://testnet.bscscan.com/tx/0xda3418e550d9238ce1533bdf3418c012708b4bdcc2f5aeb2c71d19fee42890b9"
+  },
+  {
+    "time": "2026-11-25T12:49:46.834Z",
+    "side": "BUY",
+    "price": 435.7912747077964,
+    "quote": "BUSD",
+    "amountIn": "0.940651581799033227 BUSD",
+    "tx": "0x2c3bc4505461070925e995608172debff15ca56db6cbd9cf9d10f2b84d587294",
+    "explorer": "https://testnet.bscscan.com/tx/0x2c3bc4505461070925e995608172debff15ca56db6cbd9cf9d10f2b84d587294"
   }
 ]
